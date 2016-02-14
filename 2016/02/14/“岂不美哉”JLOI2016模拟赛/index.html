@@ -80,7 +80,7 @@
     </p>
   <p class="article-time">
     <time datetime="2016-02-14T12:40:50.000Z" itemprop="datePublished">2016-02-14</time>
-    更新日期:<time datetime="2016-02-14T16:20:24.429Z" itemprop="dateModified">2016-02-15</time>
+    更新日期:<time datetime="2016-02-14T16:24:49.646Z" itemprop="dateModified">2016-02-15</time>
     
   </p>
 </header>
@@ -118,7 +118,7 @@
 </tr>
 <tr>
 <td>$j&lt;last$</td>
-<td>变为递减，区间数加一<br>$f[i][j][0]+=\frac{f[i-1][last][0]}{m-1}$<br>$num[i][j][0]+=\frac{num[i-1][last][0]}{m-1}$</td>
+<td>变为递减，区间数加一<br>$f[i][j][1]+=\frac{f[i-1][last][0]}{m-1}$<br>$num[i][j][1]+=\frac{num[i-1][last][0]+f[i-1][last][0]}{m-1}$</td>
 <td>依然递减，区间数不变<br>$f[i][j][1]+=\frac{f[i-1][last][1]}{m-1}$<br>$num[i][j][1]+=\frac{num[i-1][last][1]}{m-1}$</td>
 </tr>
 </tbody>
