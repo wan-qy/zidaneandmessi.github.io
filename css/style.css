@@ -2065,17 +2065,17 @@ footer {
 }
 .article-content pre,
 .article-content .highlight {
-  background: #1d1f21;
+  background: #e7d5f7;
   margin: 0.5em 0;
   padding: 1em 2%;
   overflow: auto;
-  color: #c5c8c6;
+  color: #686868;
   line-height: 1.5;
   font-size: 100%;
 }
 .article-content .highlight .gutter pre,
 .article-content .gist .gist-file .gist-data .line-numbers {
-  color: #666;
+  color: #be47ff;
   font-size: 0.85em;
   line-height: 1.5;
   font-size: 100%;
@@ -2127,7 +2127,7 @@ footer {
 }
 .article-content .gist {
   margin: 0.5em 0;
-  background: #1d1f21;
+  background: #e7d5f7;
   padding: 1em 2%;
 }
 .article-content .gist .gist-file {
@@ -2153,7 +2153,7 @@ footer {
   border: none;
 }
 .article-content .gist .gist-file .gist-meta {
-  background: #1d1f21;
+  background: #e7d5f7;
   color: #969896;
   font: 0.85em "Georgia", serif;
   padding: 0;
@@ -2191,7 +2191,7 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #de935f;
+  color: #f4813d;
 }
 pre .class .title,
 pre .rules .attribute {
@@ -2203,7 +2203,7 @@ pre .inheritance,
 pre .header,
 pre .symbol,
 pre .cdata {
-  color: #b5bd68;
+  color: #01b013;
 }
 pre .css .hexcolor {
   color: #8abeb7;
@@ -2216,11 +2216,11 @@ pre .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #81a2be;
+  color: #3bb8dd;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #b294bb;
+  color: #f43233;
 }
 pre .coffeescript .javascript,
 pre .javascript .xml,
