@@ -111,10 +111,10 @@ a img {
   -webkit-margin-after: 0;
 }
 body {
-  background: #ddd;
+  background: #e2aeff;
   font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
   font-size: 100%;
-  color: #817c7c;
+  color: #be47ff;
   line-height: 1.5;
 }
 small {
@@ -136,24 +136,24 @@ sub {
 }
 a {
   text-decoration: none;
-  color: #817c7c;
+  color: #be47ff;
 }
 a:hover,
 a:focus {
   outline: 0;
   text-decoration: none;
-  -webkit-transition: color 0.25s, #ddd 0.5s;
-  -moz-transition: color 0.25s, #ddd 0.5s;
-  -o-transition: color 0.25s, #ddd 0.5s;
-  -ms-transition: color 0.25s, #ddd 0.5s;
-  transition: color 0.25s, #ddd 0.5s;
+  -webkit-transition: color 0.25s, #e2aeff 0.5s;
+  -moz-transition: color 0.25s, #e2aeff 0.5s;
+  -o-transition: color 0.25s, #e2aeff 0.5s;
+  -ms-transition: color 0.25s, #e2aeff 0.5s;
+  transition: color 0.25s, #e2aeff 0.5s;
 }
 a:hover:before {
-  -webkit-transition: color 0.25s, #ddd 0.5s;
-  -moz-transition: color 0.25s, #ddd 0.5s;
-  -o-transition: color 0.25s, #ddd 0.5s;
-  -ms-transition: color 0.25s, #ddd 0.5s;
-  transition: color 0.25s, #ddd 0.5s;
+  -webkit-transition: color 0.25s, #e2aeff 0.5s;
+  -moz-transition: color 0.25s, #e2aeff 0.5s;
+  -o-transition: color 0.25s, #e2aeff 0.5s;
+  -ms-transition: color 0.25s, #e2aeff 0.5s;
+  transition: color 0.25s, #e2aeff 0.5s;
 }
 input:focus {
   outline: none;
@@ -619,10 +619,10 @@ header nav ul li a:hover {
   line-height: 2;
 }
 #main section.post a p {
-  color: #817c7c;
+  color: #be47ff;
 }
 #main section.post a time {
-  color: #817c7c;
+  color: #be47ff;
   display: block;
   margin: 0.5em 0;
   font-size: 0.5em;
@@ -972,7 +972,7 @@ article .article-content strong code,
 article .article-content em code {
   font-family: Monaco, Menlo, Consolas, Courier New, monospace;
   background: #eee;
-  color: #747070;
+  color: #b226ff;
   border: 1px solid #d6d6d6;
   padding: 0 5px;
   margin: 0 2px;
@@ -1113,7 +1113,7 @@ footer.article-footer {
   font-size: 100%;
   font-family: "FontAwesome";
   text-align: center;
-  color: #817c7c;
+  color: #be47ff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 1.5em;
@@ -1430,7 +1430,7 @@ section.comment {
 }
 #toc.toc-aside strong {
   padding: 0.3em 0;
-  color: #817c7c;
+  color: #be47ff;
 }
 #toc.toc-aside:hover {
   -webkit-transition: opacity 0.3s ease-out;
@@ -2042,7 +2042,7 @@ footer {
   color: #2ca6cb;
 }
 .copyright {
-  background: #ddd;
+  background: #e2aeff;
   -webkit-border-radius: 6px;
   border-radius: 6px;
   -webkit-font-smoothing: antialiased;
@@ -2302,14 +2302,14 @@ pre .xml .cdata {
   padding-bottom: 1em !important;
 }
 textarea {
-  color: #817c7c !important;
+  color: #be47ff !important;
   background: #fff !important;
 }
 textarea::-webkit-input-placeholder {
-  color: #817c7c !important;
+  color: #be47ff !important;
 }
 textarea::-moz-placeholder {
-  color: #817c7c !important;
+  color: #be47ff !important;
 }
 .article-gallery {
   background: #fafafa;
