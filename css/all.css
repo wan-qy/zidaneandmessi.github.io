@@ -835,7 +835,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	opacity: 1;
 }
 .sb-slidebar {
-	background-color: #E2AEFF; /* Background colour. */
+	background-color: #9300e4; /* Background colour. */
 	color: #666; /* Text colour. */
 	font-weight: 700;
 	font-size: 14px;
@@ -852,7 +852,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	font-size: 13px
 }
 .sb-slidebar a:hover {
-	color: #fff; /* Link hover colour. */
+	color: #151515; /* Link hover colour. */
 }
 /* Off-canvas menu items */
 .sb-menu {
@@ -864,7 +864,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	color: #666;
+	color: #ffffff;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 20px;
@@ -882,7 +882,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	display: inline-block;
 	font-weight: 600;
 	font-style: normal;
-	color: #666;
+	color: #ffffff;
 	cursor: pointer;
 	line-height: 20px;
 	padding: 3px 10px; /* Creates an even padding the same size as your font. */
