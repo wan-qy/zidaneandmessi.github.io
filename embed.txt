@@ -28,8 +28,7 @@ function sskadmin(e) {
         } else {
             ssk = '<span class="ua"><span class="sskadmin">粉丝xuruifan</span></span>';
         }
-    }
-	 else {
+    } else {
         if (checkMobile()) {
             ssk = '<br><br>';
         }
