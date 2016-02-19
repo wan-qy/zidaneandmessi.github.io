@@ -25,10 +25,6 @@ function sskadmin(e) {
         if (checkMobile()) {
             ssk = '<br><br>';
         }
-    } else {
-        if (checkMobile()) {
-            ssk = '<br><br>';
-        }
     }
     return ssk;
 }
