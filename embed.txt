@@ -22,7 +22,7 @@ function sskadmin(e) {
             ssk = '<span class="ua"><span class="sskadmin">博主ZidaneAndMessi</span></span>';
         }
     } else {
-	if (e.user_id == 6248906682517160706) {
+	if (e.user_id == 624) {
         if (checkMobile()) {
             ssk = '<span class="ua"><span class="sskadmin">粉丝xuruifan</span></span><br><br>';
         } else {
