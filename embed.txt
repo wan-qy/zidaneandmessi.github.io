@@ -74,7 +74,7 @@ function ua(e) {
         /*.split('/')[0]*/
     } else if (r = e.match(/Chrome([\d]*)\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
-        outputer = '<span class="ua_chrome"><i class="fa fa-globe"></i>Chrome' + ' ' + r1[1]
+        outputer = ''
         /*.split('.')[0]*/
     } else if (r = e.match(/safari\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
