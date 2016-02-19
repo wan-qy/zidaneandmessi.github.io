@@ -1,6 +1,5 @@
 //HelloDog -  http://wsgzao.github.io/post/duoshuo/
-//移动客户端判断开始
-function checkMobile() {
+//移动客户端判断开��?function checkMobile() {
     var isiPad = navigator.userAgent.match(/iPad/i) != null;
     if (isiPad) {
         return false;
@@ -11,9 +10,7 @@ function checkMobile() {
     }
     return false;
 }
-//移动客户端判断结束
-//管理员判断开始
-function sskadmin(e) {
+//移动客户端判断结��?//管理员判断开��?function sskadmin(e) {
     var ssk = '';
     if (e.user_id == 10171441) {
         if (checkMobile()) {
@@ -28,9 +25,7 @@ function sskadmin(e) {
     }
     return ssk;
 }
-//管理员判断结束
-//显UA开始
-function ua(e) {
+//管理员判断结��?//显UA开��?function ua(e) {
     var r = new Array;
     var outputer = '';
     if (r = e.match(/FireFox\/([^\s]+)/ig)) {
@@ -41,7 +36,7 @@ function ua(e) {
         outputer = '<span class="ua_maxthon"><i class="fa fa-globe"></i> Maxthon' + ' ' + r1[1]
     } else if (r = e.match(/BIDUBrowser([\d]*)\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
-        outputer = '<span class="ua_ucweb"><i class="fa fa-globe"></i> 百度浏览器' + ' ' + r1[1]
+        outputer = '<span class="ua_ucweb"><i class="fa fa-globe"></i> 百度浏览��? + ' ' + r1[1]
     } else if (r = e.match(/UBrowser([\d]*)\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
         outputer = '<span class="ua_ucweb"><i class="fa fa-globe"></i> UCBrowser' + ' ' + r1[1]
@@ -49,28 +44,28 @@ function ua(e) {
         var r1 = r[0].split("/");
         outputer = '<span class="ua_ucweb"><i class="fa fa-globe"></i> UCBrowser' + ' ' + r1[1]
     } else if (r = e.match(/MetaSr/ig)) {
-        outputer = '<span class="ua_sogou"><i class="fa fa-globe"></i> 搜狗浏览器'
+        outputer = '<span class="ua_sogou"><i class="fa fa-globe"></i> 搜狗浏览��?
     } else if (r = e.match(/2345Explorer/ig)) {
-        outputer = '<span class="ua_2345explorer"><i class="fa fa-globe"></i> 2345王牌浏览器'
+        outputer = '<span class="ua_2345explorer"><i class="fa fa-globe"></i> 2345王牌浏览��?
     } else if (r = e.match(/2345chrome/ig)) {
         outputer = '<span class="ua_2345chrome"><i class="fa fa-globe"></i> 2345加速浏览器'
     } else if (r = e.match(/LBBROWSER/ig)) {
-        outputer = '<span class="ua_lbbrowser"><i class="fa fa-globe"></i> 猎豹安全浏览器'
+        outputer = '<span class="ua_lbbrowser"><i class="fa fa-globe"></i> 猎豹安全浏览��?
     } else if (r = e.match(/MicroMessenger\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
         outputer = '<span class="ua_qq"><i class="fa fa-weixin"></i> 微信' + ' ' + r1[1]
         /*.split('/')[0]*/
     } else if (r = e.match(/QQBrowser\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
-        outputer = '<span class="ua_qq"><i class="fa fa-globe"></i> QQ浏览器' + ' ' + r1[1]
+        outputer = '<span class="ua_qq"><i class="fa fa-globe"></i> QQ浏览��? + ' ' + r1[1]
         /*.split('/')[0]*/
     } else if (r = e.match(/QQ\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
-        outputer = '<span class="ua_qq"><i class="fa fa-globe"></i> QQ浏览器' + ' ' + r1[1]
+        outputer = '<span class="ua_qq"><i class="fa fa-globe"></i> QQ浏览��? + ' ' + r1[1]
         /*.split('/')[0]*/
     } else if (r = e.match(/MiuiBrowser\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
-        outputer = '<span class="ua_mi"><i class="fa fa-globe"></i> Miui浏览器' + ' ' + r1[1]
+        outputer = '<span class="ua_mi"><i class="fa fa-globe"></i> Miui浏览��? + ' ' + r1[1]
         /*.split('/')[0]*/
     } else if (r = e.match(/Chrome([\d]*)\/([^\s]+)/ig)) {
         var r1 = r[0].split("/");
@@ -88,7 +83,7 @@ function ua(e) {
         outputer = '<span class="ua_ie"><i class="fa fa-globe"></i> Internet Explorer' + ' ' + r[0]
         /*.replace('MSIE', '').split('.')[0]*/
     } else {
-        outputer = '<span class="ua_other"><i class="fa fa-globe"></i> 其它浏览器'
+        outputer = '<span class="ua_other"><i class="fa fa-globe"></i> 其它浏览��?
     }
     if (checkMobile()) {
         Mobile = '<br><br>';
