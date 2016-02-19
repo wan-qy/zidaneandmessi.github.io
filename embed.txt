@@ -28,6 +28,7 @@ function sskadmin(e) {
                 } else {
                     ssk = '<span class="ua"><span class="sskadmin">博主ZidaneAndMessi</span></span>';
             }
+        }
     } else {
         if (checkMobile()) {
             ssk = '<br><br>';
