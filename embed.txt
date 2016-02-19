@@ -20,6 +20,8 @@ function sskadmin(e) {
             ssk = '<span class="ua"><span class="sskadmin">博主ZidaneAndMessi</span></span><br><br>';
         } else {
             ssk = '<span class="ua"><span class="sskadmin">博主ZidaneAndMessi</span></span>';
+        } else {
+            ssk = '<span class="ua"><span class="sskadmin">博主ZidaneAndMessi</span></span>';
         }
     } else {
         if (checkMobile()) {
