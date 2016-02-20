@@ -33,6 +33,12 @@ function sskadmin(e) {
             } else {
                 ssk = '<span class="ua"><span class="sskadmin">神犇KuribohG</span></span>';
             }
+    } else if (e.user_id == 6253283754056352513) {
+            if (checkMobile()) {
+                ssk = '<span class="ua"><span class="sskadmin">粉丝jcysndn</span></span><br><br>';
+            } else {
+                ssk = '<span class="ua"><span class="sskadmin">粉丝jcysndn</span></span>';
+            }
         }
     else {
         if (checkMobile()) {
