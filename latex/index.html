@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>分类: Life | 魔法炮</title>
+  <title>公式编辑器 | 魔法炮</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -83,7 +83,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -225,56 +225,26 @@
         <!-- // End height spacing helper -->
 
         <!-- ============================ END Hero Image =========================== -->
-      
-
-
-<section id="services">
+      <section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/post/NOIP鬼畜Style/">NOIP鬼畜Style</a></h4>
-                            
-                            <p><time datetime="2016-02-17T12:11:51.000Z"><a href="/post/NOIP鬼畜Style/">2016-02-17</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/post/NOI2015/">NOI2015</a></h4>
-                            
-                            <p><time datetime="2016-02-15T01:03:36.000Z"><a href="/post/NOI2015/">2016-02-15</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/post/Hello World/">Hello World</a></h4>
-                            
-                            <p><time datetime="2016-02-13T13:00:17.000Z"><a href="/post/Hello World/">2016-02-13</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+                <h1>公式编辑器</h1>
+            </div>
         </div>
-    </div>
-</section> 
-
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <b>最清晰的脚印，印在最泥泞的路上。</b>
+        <div class="col-md-8 col-md-offset-2">
+            <p><div id="toolbar"></div></p>
+<p><textarea id="latexInput" rows="3" cols="40"></textarea><br><img id="equation" align="middle"></p>
+<script type="text/javascript">
+  EqEditor.embed(toolbar);
+  EqEditor.add(new EqTextArea('equation', 'latexInput'),false);
+</script>
+            <div class="clearfix"></div>
         </div>
+        
     </div>
 </section>
+
       
 <!-- ============================ Footer =========================== -->
 
