@@ -129,9 +129,12 @@ h1 span {
 	top: -2px
 }
 section {
-	background-color: #F5FFF9;
+	background-color: #E7F4FA;
 	position: relative;
 	padding-top: 60px;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	opacity:0.8;
 	z-index: 4;
 }
 a,
