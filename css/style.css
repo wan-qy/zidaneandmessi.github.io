@@ -13,7 +13,7 @@
 	display: none;
 }
 .pace .pace-progress {
-	background: #E2AEFF;
+	background: #C1FBFB;
 	position: fixed;
 	z-index: 2000;
 	top: 0;
@@ -46,7 +46,7 @@
 	}
 }
 body {
-	background-color: #E2AEFF;
+	background-color: #C1FBFB;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	color: #C547FF;
 	font-style: normal;
