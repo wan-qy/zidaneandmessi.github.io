@@ -839,6 +839,9 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 }
 .sb-slidebar {
 	background-color: #2061ed; /* Background colour. */
+filter:alpha(opacity=80); 
+-moz-opacity:0.8; 
+opacity:0.8;
 	color: #666; /* Text colour. */
 	font-weight: 700;
 	font-size: 14px;
@@ -3199,7 +3202,10 @@ button.send{
 ******************************************************* */
 footer {
 	padding:5% 0 0;
-	background:#BE47FF;
+	background:#20C7ED;
+filter:alpha(opacity=90); 
+-moz-opacity:0.9; 
+opacity:0.9;
 	z-index: 9;
 	position: relative;
 }
