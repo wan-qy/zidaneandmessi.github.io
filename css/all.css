@@ -124,7 +124,7 @@ html[xmlns] .slides {display: block;}
 	display: none;
 }
 .pace .pace-progress {
-	background: #E2AEFF;
+	background: #C1FBFB;
 	position: fixed;
 	z-index: 2000;
 	top: 0;
@@ -157,7 +157,7 @@ html[xmlns] .slides {display: block;}
 	}
 }
 body {
-	background-color: #E2AEFF;
+	background-color: #C1FBFB;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	color: #C547FF;
 	font-style: normal;
@@ -245,6 +245,7 @@ section {
 	padding-top: 60px;
 	filter:alpha(opacity=80); 
 	-moz-opacity:0.8; 
+	-khtml-opacity: 0.8;
 	opacity:0.8;
 	z-index: 4;
 }
@@ -841,6 +842,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	background-color: #2061ed; /* Background colour. */
 filter:alpha(opacity=80); 
 -moz-opacity:0.8; 
+-khtml-opacity: 0.8; 
 opacity:0.8;
 	color: #666; /* Text colour. */
 	font-weight: 700;
