@@ -134,6 +134,7 @@ section {
 	padding-top: 60px;
 	filter:alpha(opacity=80); 
 	-moz-opacity:0.8; 
+	-khtml-opacity: 0.8;
 	opacity:0.8;
 	z-index: 4;
 }
@@ -730,6 +731,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	background-color: #2061ed; /* Background colour. */
 filter:alpha(opacity=80); 
 -moz-opacity:0.8; 
+-khtml-opacity: 0.8; 
 opacity:0.8;
 	color: #666; /* Text colour. */
 	font-weight: 700;
