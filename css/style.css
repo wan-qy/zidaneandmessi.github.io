@@ -182,8 +182,8 @@ blockquote footer {
 }
 @media (min-width: 768px) {
 	.container {
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 ::selection {
