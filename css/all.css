@@ -293,12 +293,12 @@ blockquote footer {
 }
 @media (min-width: 768px) {
 	.container {
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 ::selection {
-	color: #FFFFF;
+	color: #C1FBFB;
 	background: #151515;
 }
 ::-moz-selection {
@@ -1648,7 +1648,7 @@ hr.byline-accent {
 * Statement section, (homepage)
 ******************************************************* */
 #statement {
-	background-color: #fff;
+	background-color: #e7f4fa;
 	padding: 60px 0 20px;
 }
 
@@ -2302,7 +2302,7 @@ ul.page-nav i {
 ******************************************************* */
 
 #services {
-	background-color: #FFF;
+	background-color: #e7f4fa;
 }
 #services .services-intro {
 	padding: 40px 15px 70px;
